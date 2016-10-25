@@ -12,6 +12,8 @@ gulp.task('clean', function (cb) {
     return del(["build"], cb);
 });
 
+
+
 /**
  * Copy all resources that are not TypeScript files into build directory.
  */
